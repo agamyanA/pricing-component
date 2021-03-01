@@ -1,0 +1,17 @@
+*.sketch
+*.fig
+*.xd
+.DS_Store
+.prettierignore
+README.md
+style-guide.md
+design/active-states.jpg
+design/desktop-design.jpg
+design/mobile-design.jpg
+main/css/_globals.scss
+main/css/_mixins.scss
+main/css/_variables.scss
+main/css/style.css.map
+main/css/_card.scss
+main/css/_title.scss
+main/css/style.scss

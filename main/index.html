@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+
+  <title>Interactive pricing component</title>
+</head>
+
+<body>
+  <main class="container">
+    <header class="title">
+      <div class="title__text">
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. <br> No credit card required.</p>
+      </div>
+    </header>
+
+    <section class="card">
+      <div class="card__top">
+        <div class="card__page-view"><span class="view-count">100</span>K PAGEVIEWS</div>
+        <input type="range" min="1" max="5" step="1" value="3" class="card__range">
+        <div class="card__price">
+          <span class="card__price-cost"><span>$</span>16<span>.00</span></span>/ month
+        </div>
+        <span class="card__billing">Monthly Billing</span>
+        <label class="card__switcher">
+          <input type="checkbox">
+          <span class="card__check"></span>
+        </label>
+        <span class="card__billing">Yearly Billing</span>
+        <span class="card__discount">-25%<span class="hide"> discount</span></span>
+      </div>
+
+      <hr>
+
+      <div class="card__bottom">
+        <ul>
+          <li> Unlimited websites</li>
+          <li> 100% data ownership</li>
+          <li> Email reports</li>
+        </ul>
+        <button class="card__button">Start my trial</button>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
