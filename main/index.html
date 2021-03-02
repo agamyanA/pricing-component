@@ -23,18 +23,25 @@
 
     <section class="card">
       <div class="card__top">
-        <div class="card__page-view"><span class="view-count">100</span>K PAGEVIEWS</div>
+
+        <div class="card__page-view"><span class="view-count">100K</span>PAGEVIEWS</div>
+
         <input type="range" min="1" max="5" step="1" value="3" class="card__range">
+
         <div class="card__price">
-          <span class="card__price-cost"><span>$</span>16<span>.00</span></span>/ month
+          <span class="card__price-cost"><span>$</span><span class="cost">16</span><span>.00</span></span>/<span class="period"> month</span>
         </div>
-        <span class="card__billing">Monthly Billing</span>
-        <label class="card__switcher">
-          <input type="checkbox">
-          <span class="card__check"></span>
-        </label>
-        <span class="card__billing">Yearly Billing</span>
-        <span class="card__discount">-25%<span class="hide"> discount</span></span>
+
+        <div class="card__billing">
+          <span>Monthly Billing</span>
+          <label class="card__switcher">
+            <input type="checkbox" class="check">
+            <span class="card__check"></span>
+          </label>
+          <span>Yearly Billing</span>
+          <span class="card__discount">-25%<span class="hide"> discount</span></span>
+        </div>
+
       </div>
 
       <hr>
@@ -45,10 +52,12 @@
           <li> 100% data ownership</li>
           <li> Email reports</li>
         </ul>
-        <button class="card__button">Start my trial</button>
+        <input type="submit" value="Start my trial" class="card__button">
       </div>
     </section>
   </main>
+
+  <script src="/main/js/script.js"></script>
 </body>
 
 </html>
