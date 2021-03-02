@@ -55,3 +55,8 @@ function costCount(){
     sale()
 
 }
+
+
+class A {
+    
+}
