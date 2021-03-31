@@ -15,7 +15,7 @@
 body {
   font-family: 'Manrope', sans-serif;
   background-color: #fafbff;
-  background-image: url("../../main/img/bg-pattern.svg");
+  background-image: url("../img/bg-pattern.svg");
   background-repeat: no-repeat;
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 .title {
-  background-image: url("../../main/img/pattern-circles.svg");
+  background-image: url("../img/pattern-circles.svg");
   background-repeat: no-repeat;
   background-position: center;
   padding-bottom: 3rem;
@@ -136,7 +136,7 @@ p {
   width: 2rem;
   border-radius: 50%;
   background: #10d5c2;
-  background-image: url("../../main/img/icon-slider.svg");
+  background-image: url("../img/icon-slider.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -226,7 +226,7 @@ input:checked + .card__check:before {
 .card__bottom > ul {
   font-size: 0.875rem;
   color: #858fad;
-  list-style-image: url("../../main/img/icon-check.svg");
+  list-style-image: url("../img/icon-check.svg");
   list-style-position: inside;
   line-height: 2;
 }
